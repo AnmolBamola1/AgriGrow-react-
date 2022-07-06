@@ -1,0 +1,332 @@
+body
+{
+  background-color:aliceblue;
+}
+span
+{
+  color:greenyellow;
+}
+.NavBrand
+{
+  font-weight: bolder;
+}
+#main-nav
+{
+background:#1B5E20;
+width:100%;
+}
+.navbar a
+{
+color:white;
+}
+.navbar a:hover
+{
+text-decoration: underline;
+color:white;
+text-decoration-color:yellowgreen;
+text-decoration-thickness:3px;
+}
+.dropdown-menu a
+{
+  color:black;
+}
+.dropdown-menu a:hover
+{
+  color:black;
+}
+/*-----------------CardOne---------*/
+#CardOne
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("components/images/background.jpg");
+  background-size:cover;
+  background-position: center;
+  width:100%;
+  height:60vh;
+}
+.hero-text
+{
+  text-align: center;
+  top: 50%;
+  font-family: 'Limelight', cursive;
+  left: 50%;
+  bottom:50%;
+  right: 50%;
+  font-weight: bolder;
+  font-size:7vh;
+  color:#ADFF2F;
+
+}
+#Cardtwo
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("components/images/bgs.svg");
+    background-size:cover;
+    background-position: center;
+    width:100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height:auto ;
+    font: size 0.5rem;;
+}
+.hero-textt
+{
+  text-align: center;
+  color: azure;
+  font-family: 'Limelight', cursive;
+  text-shadow: 5px 5px 5px black;
+  font-weight: bolder;
+}
+.Cardp
+{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:black;
+  font-size:1rem;
+}
+/*----------carousel------*/
+.carousel .carousel-item {
+  height: 350px;
+  margin-top:0px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+}
+
+/*-----contact----*/
+#contact-container2
+{
+  color:forestgreen;
+}
+#contact-container1
+{
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  
+}
+#main-contact
+{
+  background:url('./components/images/nice.jpg');
+  width:100%;
+  height:100%;
+  left:0;
+}
+/*----video-------*/
+#main {
+  width: 100vw;
+  position: relative;
+  height: auto;
+  font-family: 'Limelight', cursive;
+}
+
+video {
+  width: 100vw;
+  object-fit: cover;
+}
+.content
+{
+  position:absolute;
+  width: 100%;
+  font-weight: bolder;
+  display: flex;
+  top:25vw;
+  left:50vw;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+h2
+{
+  font-size:3rem;
+}
+/*----card--------*/
+.card
+{
+  width:12rem;
+  text-align: center;
+  box-shadow: 3px 3px 3px black;
+}
+.card-img-top
+{
+  max-height:130px;
+}
+.card-title
+{
+  color:black;
+}
+/*------footer----*/
+.text-center
+{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#footer
+{
+  background:grey;
+}
+
+#pcont
+{
+  text-align: center;
+  font-family: 'Playfair Display SC', serif;
+  color:darkgreen;
+  font-weight: bolder;
+}
+.pconth
+{
+  color:black;
+}
+
+.pahad
+{
+  color:white;
+  font-weight: bolder;
+  text-align: center;
+}
+/*----AvtCard-------*/
+#card2
+{
+  width:100%;
+}
+#pow
+{
+  color:blue;
+  text-align: center;
+}
+#des
+{
+  text-align: center;
+  color:red;
+}
+/*------Cat-cont---*/
+#navbar1 {
+  background:white;
+  height: 100%;
+  border: 1px solid gray;
+  border-left: none;
+  border-bottom: none;
+  box-shadow: 1px 0px 0px 2px gray;
+}
+#navbar1-header {
+  margin: 20px;
+  padding: 10px; 
+  text-align: center;
+  font-size: 35px;
+}
+#navbar1 ul {
+  list-style: none;
+}
+#navbar1 ul li {
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  border-top: 3px solid gray;
+}
+.nav1-link {
+  text-decoration: none;
+  color: inherit;
+}
+#navbar1 ul li:hover {
+  transform: scale(0.95);
+}
+#main-doc {
+  padding: 20px 15px;
+}
+#main-doc div {
+  padding: 20px;
+  padding-top: 0px;
+}
+.main-section-header {
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: 500;
+}
+.main-section {
+  padding: 25px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  margin: auto;
+}
+.main-section li {
+  width: 90%;
+  margin-left: 5%;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.main-section:hover {
+  display: block;
+  animation-name: main-section-hover;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards;
+}
+.main-section:hover + hr {
+  animation-name: horizontal-hover-effect;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+/*----------*/
+#icon
+{
+  font-size:20px;
+}
+/*-------video--------*/
+#videomain
+{
+  background:url('./components/images/videol.jpg')center center no-repeat;
+  background-size: cover;
+}
+#videocard
+{
+  width:18rem;
+}
+/*------sell/buy---*/
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+#blf
+{
+  padding-left: 2.5rem; 
+  padding-right: 2.5rem;
+}
+
+#blfl
+{
+  background: transparent;
+}
+.gradient-custom-3 {
+  background:transparent;
+}
+#bycard
+{
+  border-radius: 15px;
+}
+#loginby
+{
+  background:transparent;
+}
+#lang
+{
+  background:green;
+  text-align:right;
+}
+.m
+{
+  color:greenyellow;
+}
